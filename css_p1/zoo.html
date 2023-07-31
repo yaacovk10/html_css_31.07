@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: #333;
+          position: fixed;
+        }
+        
+        li {
+          float: left;
+        }
+        
+        li a {
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+        
+        li a:hover:not(.active) {
+          background-color: #111;
+        }
+        
+        .active {
+          background-color: #04AA6D;
+        }
+        </style>
+</head>
+<body>
+    <ul id="topMenu">
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#lion">Lion</a></li>
+        <li><a href="#Shark">Shark</a></li>
+        <li><a href="#jellyfish">jellyfish</a></li>
+        <li><a href="#dog">dog</a></li>
+        <li><a href="#about">dog</a></li>
+
+      </ul>
+    <div id="lion" style="padding: 200px;background-color: #04AA6D;">Lion
+    <img src="lion.avif" alt="lion"; width:200px; height:300px> </div>
+    <div id="Shark" style="padding: 200px;background-color: #270745;">Shark 
+        <br><a href="#topMenu">Back to top</a></div>
+    <div id="jellyfish" style="padding: 200px;background-color: #cf9e15;">jellyfish 
+        <br><a href="#topMenu">Back to top</a></div>
+    <div id="dog" style="padding: 200px;background-color: #aa0465;"> dog
+        <br><a href="#topMenu">Back to top</a> </div>
+    <div id="about" style="padding: 200px;background-color: #1a0669;">about
+    <br><a href="#topMenu">Back to top</a>
+    </div>
+
+</body>
+</html>

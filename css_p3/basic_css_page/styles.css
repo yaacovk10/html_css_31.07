@@ -1,0 +1,20 @@
+.header {
+    text-align: center;
+}
+
+.leftMenu {
+    background-color: aqua;
+    height: 100%;
+    height: 400px;
+}
+
+.rightMenu {
+    background-color: blueviolet;
+    height: 400px;
+}
+
+.footer {
+    background-color: rgb(43, 226, 98);
+    text-align: center;
+    padding-top: 30px;
+}
